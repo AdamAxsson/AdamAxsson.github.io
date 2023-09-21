@@ -28,33 +28,58 @@
         }
 
         .blogg{
-            height: 600px;
+            height: 800px;
             display: flex;
         }
 
         .post-container{
-            height: 600px;
-            width: 100px;
-            flex:2;
+            height: 800px;
+            width: 500px;
+            flex: 4;
             display: flex;
             flex-direction: column;
             
         }
 
         .posts{
-            height: 100px;
+            height: 600px;
             margin: 10px;
         }
         .sidetable{
-            height: 200px;
+            height: 500px;
             width: 100px;
             flex: 1;
+            margin: 5px;
         }
 
         .footer{
-            height: 100px;
+            height: 500px;
         }
 
+        @media screen and (max-width: 500px){
+            .blogg{
+                flex-direction: column-reverse;
+            }
+
+            .post-container{
+                width: 100%;
+            }
+            .posts{
+                height: 500px;
+                width: 95%;
+                flex: 1;
+                margin: 5px auto;
+                padding: ;
+
+            }
+
+            .sidetable{
+                width: 90%;
+                flex: 1;
+                margin: auto;
+                
+            }
+        }
 
 
 
@@ -88,9 +113,7 @@
                 <div class="posts">
 
                 </div>
-                <div class="posts">
-
-                </div>              
+           
 
             </div>
 

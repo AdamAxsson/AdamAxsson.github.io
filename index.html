@@ -45,6 +45,10 @@
             height: 600px;
             margin: 10px;
         }
+        .table-container{
+            display: flex;
+        }
+
         .sidetable{
             height: 500px;
             width: 100px;
@@ -63,6 +67,7 @@
 
             .post-container{
                 width: 100%;
+                flex: 6;
             }
             .posts{
                 height: 500px;
@@ -73,10 +78,17 @@
 
             }
 
+            .table-container{
+            height: 500px;
+            width: 100%;
+            flex: 1;
+            }
             .sidetable{
-                width: 90%;
+                height: 100px;
+                width: 95%;
                 flex: 1;
-                margin: auto;
+                margin: 5px auto;
+
                 
             }
         }
@@ -117,8 +129,10 @@
 
             </div>
 
-            <div class="sidetable">
+            <div class="table-container">
+                <div class="sidetable">
 
+                </div>
             </div>
 
         </div>

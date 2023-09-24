@@ -18,11 +18,11 @@
             height: 100px;
             width: ;
             display: flex;
+            justify-content: space-between;
         }
 
         .uhead{
             height: 50px;
-            width: ;
             display: flex;
 
         }
@@ -39,12 +39,25 @@
             display: flex;
             flex-direction: column;
             
+            
         }
 
         .posts{
             height: 600px;
             margin: 10px;
+            display: flex;
         }
+
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+        }
+
+        .post-img{
+            flex:1;
+        }
+
         .table-container{
             display: flex;
         }
@@ -74,8 +87,6 @@
                 width: 95%;
                 flex: 1;
                 margin: 5px auto;
-                padding: ;
-
             }
 
             .table-container{
@@ -93,8 +104,18 @@
             }
         }
 
+        .logga{
+            display: flex;
+        }
 
+        .socials{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+        }
 
+        
     </style>
 </head>
 
@@ -102,7 +123,16 @@
     <div class="container">
 
         <div class="head">
+            <div class="logga">
+                <img src="" alt="Logga">
 
+            </div>
+            
+            <div class="socials">
+                <a href=""><img src="" alt="X"></a>
+                <a href=""><img src="" alt="Instagram"></a>
+                <a href=""><img src="" alt="LinkedIn"></a>
+            </div>
         </div>
 
         <div class="uhead">
@@ -114,17 +144,66 @@
             <div class="post-container">
                 
                 <div class="posts">
+                    <div class="post-img">
 
+                        <img src="" alt="Post-img">
+                    </div>
+                    <div class="text-container">
+                        <div class="Post-head">
+                            <h1>Post</h1>
+                        </div>
+                        <div class="Post-paragraph">
+                            <p>First post</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="posts">
 
+                    <div class="post-img">
+
+                        <img src="" alt="Post-img">
+                    </div>
+                    <div class="text-container">
+                        <div class="Post-head">
+                            <h1>Post</h1>
+                        </div>
+                        <div class="Post-paragraph">
+                            <p>First post</p>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="posts">
 
+                    <div class="post-img">
+
+                        <img src="" alt="Post-img"> 
+                    </div>
+                    <div class="text-container">
+                        <div class="Post-head">
+                            <h1>Post</h1>
+                        </div>
+                        <div class="Post-paragraph">
+                            <p>First post</p>
+                        </div>
+                    </div>
                 </div> 
+
                 <div class="posts">
 
+                    <div class="post-img">
+                        <img src="" alt="Post-img">
+                    </div>
+                    <div class="text-container">
+                        <div class="Post-head">
+                            <h1>Post</h1>
+                        </div>
+                        <div class="Post-paragraph">
+                            <p>First post</p>
+                        </div>
+                    </div>    
                 </div>
+
            
 
             </div>

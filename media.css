@@ -6,6 +6,7 @@
     .post-container{
         width: 100%;
         flex: 6;
+    
     }
     .posts{
         height: 500px;

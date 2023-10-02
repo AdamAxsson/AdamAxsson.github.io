@@ -16,41 +16,46 @@
 }
 
 .uhead{
-    height: 50px;
+    height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
+
+
 .blogg{
     height: 800px;
+    width: 100%;
     display: flex;
 }
 
 .post-container{
     height: 800px;
-    width: 500px;
-    flex: 2;
+    width: 400px;
+    flex: 8;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     
     
     
 }
 
 .posts{
-    min-height: 150px;
-    max-height: 600px;
+    display: flex;
+    height: fit-content;
     width: fit-content;
     margin: 10px;
-    display: flex;
-    flex:1;
+    flex: 1;
+    
 }
 
 .text-container{
     display: flex;
     flex-direction: column;
     flex: 3;
+
 }
 
 .post-img{
@@ -60,13 +65,18 @@
 .table-container{
     display: flex;
     flex-direction: column;
+
+    flex: 1;
 }
 
 .sidetable{
     height: 400px;
     width: 200px;
-    flex: 1;
+    flex: 3;
     margin: 5px;
+}
+.show-all{
+    flex:1
 }
 
 .footer{
@@ -88,11 +98,20 @@
     
 }
 
-.Post-paragraph{
+.p-container{
     display: flex;
-    flex: 1;
+    flex: 2;
 }
-.Post-head{
+.head-container{
     display: flex;
-    flex:3
+    justify-content: center;
+ 
+
+}
+.post-header{
+
+}
+.post-button{
+    display: flex;
+    flex-direction: row-reverse;
 }

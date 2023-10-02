@@ -1,35 +1,38 @@
 @media screen and (max-width: 500px){
     .blogg{
         flex-direction: column-reverse;
+        height: 1000px;
     }
 
     .post-container{
+
         width: 100%;
-        flex: 6;
+
     
     }
     .posts{
-        height: 500px;
+     
         width: 95%;
-        flex: 1;
         margin: 5px auto;
     }
 
     .table-container{
-    height: 500px;
-    width: 100%;
-    flex: 1;
+        height: 100px;
+
     }
     .sidetable{
-        height: 100px;
+     
         width: 95%;
-        flex: 1;
+
         margin: 5px auto;
 
         
     }
+    .show-all{
+        display: none;
+    }
     
     .footer{
-        height: 200px;
+        height: 100px;
     }
 }

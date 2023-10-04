@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Min blogg</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="flex.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="style.css">
@@ -12,19 +12,19 @@
     <div class="container">
 
         <div class="head">
-            <div class="logga">
-                <img src="" alt="Logga">
+            <div class="logo-container">
+                <img class="logo" class src="Adam Axelsson.png" alt="Logga">
 
             </div>
-            <div class="head-title">
+            <!--<div class="head-title">
                 <h1 class="head-text">
                     Adams portfolio
                 </h1>
-            </div>
-            <div class="socials">
-                <a target="_blank" href=""><img src="x loggo.png" width="30px" alt="X"></a>
-                <a target="_blank" href=""><img src="insta logga.png" width="30px" alt="Instagram"></a>
-                <a target="_blank" href=""><img src="linkedin-logo-3.png" width="30px" alt="LinkedIn"></a>
+            </div>-->
+            <div class="social-container">
+                <a class="socials" target="_blank" href="https://twitter.com/?lang=sv"><img src="twitter.png" width="30px" alt="X"></a>
+                <a class="socials" target="_blank" href="https://www.instagram.com/"><img src="instagram.png" width="30px" alt="Instagram"></a>
+                <a class="socials" target="_blank" href="https://www.linkedin.com/"><img src="linkedin.png" width="30px" alt="LinkedIn"></a>
             </div>
         </div>
 
@@ -58,11 +58,10 @@
         <div class="blogg">
 
             <div class="post-container">
-                
-                <div class="posts">
-                    <div class="post-img">
 
-                        <img src="" alt="Post-img">
+                <div class="posts">
+                    <div class="post-img-container">
+                        <img class="post-img" src="pil.png"  alt="Post-img">
                     </div>
                     <div class="text-container">
                         <div class="head-container">
@@ -73,17 +72,17 @@
                                 Phasellus imperdiet, nulla et dictum interdum, 
                             </p>
                         </div>
-                        <div class="post-button">
-                            <button><a target="_blank" href="http://127.0.0.1:3000/post1.html">Full article</a></button>
+                        <div class="post-button-container">
+                            <button class="post-button"><a class="post-button-link" target="_blank" href="http://127.0.0.1:3000/post1.html">Full article</a></button>
                         </div>
                     </div>
                     
                 </div>
                 <div class="posts">
 
-                    <div class="post-img">
+                    <div class="post-img-container">
 
-                        <img src="" alt="Post-img">
+                        <img class="post-img" src="pil.png" alt="Post-img">
                     </div>
                     <div class="text-container">
                         <div class="head-container">
@@ -95,17 +94,16 @@
                             </p>
                         
                         </div>
-                        <div class="post-button">
-                            <button><a target="_blank" href="#">Full article</a></button>
+                        <div class="post-button-container">
+                            <button class="post-button"><a class="post-button-link" target="_blank" href="#">Full article</a></button>
                         </div>
                     </div>
                 </div>
 
                 <div class="posts">
 
-                    <div class="post-img">
-
-                        <img src="" alt="Post-img"> 
+                    <div class="post-img-container">
+                        <img class="post-img" src="pil.png" alt="Post-img">
                     </div>
                     <div class="text-container">
                         <div class="head-container">
@@ -116,16 +114,16 @@
                                 Phasellus imperdiet, nulla et dictum interdum, 
                             </p>
                         </div>
-                        <div class="post-button">
-                            <button><a target="_blank" href="#">Full article</a></button>
+                        <div class="post-button-container">
+                            <button class="post-button"><a class="post-button-link" target="_blank" href="#">Full article</a></button>
                         </div>
                     </div>
                 </div>
 
                 <div class="posts">
 
-                    <div class="post-img">
-                        <img src="" alt="Post-img">
+                    <div class="post-img-container">
+                        <img class="post-img" src="pil.png" alt="Post-img">
                     </div>
                     <div class="text-container">
                         <div class="head-container">
@@ -136,8 +134,8 @@
                                 Phasellus imperdiet, nulla et dictum interdum, 
                             </p>
                         </div>
-                        <div class="post-button">
-                            <button><a target="_blank" href="#">Full article</a></button>
+                        <div class="post-button-container">
+                            <button class="post-button"><a class="post-button-link" target="_blank" href="#">Full article</a></button>
                         </div>
                     </div>
 
@@ -153,9 +151,9 @@
                         <h4 class="table-header">
                             Post Archives
                         </h4>
-                        <a href="#">August 2023</a>
-                        <a href="#">July 2023</a>
-                        <a href="#">June 2023</a>
+                        <a class="time-arc" href="#">August 2023</a>
+                        <a class="time-arc" href="#">July 2023</a>
+                        <a class="time-arc" href="#">June 2023</a>
                     </div>
 
                     <div class="tag-container">
@@ -169,11 +167,45 @@
 
                     <div class="search-button">
 
+                        <input class="table-input" type="text" placeholder="search.." name="t-search">
+                        
                     </div>
                 </div>
 
                 <div class="show-all">
-                    
+
+                    <h3>Latest posts:</h3>
+
+                    <div class="navbar-dropdown">
+                        <h3>Post Archives</h3>
+                        <div class="dropdown-list">
+                            <a class="dropdown-link" target="_blank" href="#">September 2023</a>
+                            <a class="dropdown-link" target="_blank" href="#">August 2023</a>
+                            <a class="dropdown-link" target="_blank" href="#">July 2023</a>
+                            <a class="dropdown-link" target="_blank" href="#">June 2023</a>
+                        </div>                       
+                    </div>
+
+                    <div class="navbar-dropdown">
+                        <h3>Tags</h3>
+                        <div class="dropdown-list">
+                            <a class="dropdown-link" target="_blank" href="#">#Webdesign</a>
+                            <a class="dropdown-link" target="_blank" href="#">#Coding</a>
+                            <a class="dropdown-link" target="_blank" href="#">#Javascript</a>
+                            <a class="dropdown-link" target="_blank" href="#">#Frontend</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-dropdown">
+                        <img class="menu-button" src="menu button.png" width="50px" alt="">
+            
+                            <div class="dropdown-list">
+                                <a class="dropdown-link" target="_blank" href="#">Home</a>
+                                <a class="dropdown-link" target="_blank" href="#">About</a>
+                                <a class="dropdown-link" target="_blank" href="#">Info</a>
+                                <a class="dropdown-link" target="_blank" href="#">Contact</a>
+                            </div>
+                    </div>
                 </div>
             </div>
 
@@ -181,11 +213,108 @@
 
         <div class="footer">
 
-            <div class="info">
-
+            <div class="older-post-container">
+                <button class="older-post"><a target="_blank" href="#">
+                    Older posts-> 
+                </a></button>
             </div>
 
-            <div class="links">
+            <div class="info-container">
+                <div class="info-header">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+                <div class="info-para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>  
+                
+            </div>
+
+            <div class="bottom-links-container">
+                <div class="bottom-links">
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a> 
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a>
+                </div>
+                <div class="bottom-links">
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a> 
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a>
+                </div>
+                <div class="bottom-links">
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a> 
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a>
+                </div>
+                <div class="bottom-links">
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a> 
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a>
+                </div>
+                <div class="bottom-links">
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a> 
+                    <a class="bottom-links-style" href="#">
+                        about us
+                    </a>
+                    <a class="bottom-links-style" href="#">
+                        about us   
+                    </a>
+                </div>
+            </div>
+
+            <div class="bottom-socials-container">
+
+                <div class="bottom-social-container">
+                    <a class="socials" target="_blank" href="https://twitter.com/?lang=sv"><img src="twitter.png" width="30px" alt="X"></a>
+                    <a class="socials" target="_blank" href="https://www.instagram.com/"><img src="instagram.png" width="30px" alt="Instagram"></a>
+                    <a class="socials" target="_blank" href="https://www.linkedin.com/"><img src="linkedin.png" width="30px" alt="LinkedIn"></a>
+                </div>
+
+                <p class="bottom-text">Lorem blablablabla</p>
+
+                <div class="empty">
+                    
+                </div>
 
             </div>
         </div>

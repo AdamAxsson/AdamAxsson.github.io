@@ -1,38 +1,175 @@
 @media screen and (max-width: 500px){
+    .container{
+        display: flex;
+        height: 100%
+    }
+
     .blogg{
         flex-direction: column-reverse;
-        height: 1000px;
-    }
-
-    .post-container{
-
-        width: 100%;
-
-    
-    }
-    .posts{
-     
-        width: 95%;
-        margin: 5px auto;
-    }
-
-    .table-container{
-        height: 100px;
+        height: fit-content;
 
     }
-    .sidetable{
-     
-        width: 95%;
 
-        margin: 5px auto;
-
-        
-    }
-    .show-all{
+    .uhead{
         display: none;
     }
     
-    .footer{
-        height: 100px;
+    .post-container{
+        margin:auto;
+        
+    }
+
+    .post-img-container{
+        align-items: center;
+    }
+    .post-img{
+        height: 50%;
+        width: 100%;
+        
+    }
+
+    .sidetable{
+        display: none;
+    
+    }
+    .show-all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ 
+        background-color: aliceblue;
+
+    }
+    
+    .navbar-dropdown{
+        display:flex;
+        position: relative;
+
+    }
+
+
+    .dropdown-list{
+        display: none;
+        position: absolute;
+
+        border-bottom: 1px solid aliceblue;
+        border-top: 1px solid aliceblue;
+
+    }
+    .dropdown-link{
+        text-decoration: none;
+        display: block;
+        color: aliceblue;
+        margin-top: 10px;
+        border-bottom: 1px solid aliceblue;
+        border-top: 1px solid aliceblue;
+
+
+        
+   
+    }
+    .navbar-dropdown:hover .dropdown-list{
+        display: block;
+        flex-direction: column;
+        background-color: black;
+        border-bottom: 1px solid aliceblue;
+        min-width: 85px
+
+
+
+
+    }
+
+
+}
+
+@media screen and (min-width:501px) and (max-width: 840px){
+    .container{
+        display: flex;
+        height: 100%
+    }
+
+    .blogg{
+        flex-direction: column-reverse;
+        height: fit-content;
+        background-image: url(pexels-emre-orkun-keskin-52706.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .uhead{
+        display: none;
+    }
+    
+    .post-container{
+        flex-direction: row;
+        margin:auto;
+        width: 100%;
+        height: fit-content;
+        
+    }
+    .posts{
+        width: 100%;
+        background-color: aliceblue;
+    }
+    
+    .post-img-container{
+        display: none;
+    }
+    .post-p{
+        font-size: 2vw;
+    }
+
+    .sidetable{
+        display: none;
+    
+    }
+    .show-all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        min-height: 50px;
+        background-color: aliceblue;
+
+    }
+    
+    .navbar-dropdown{
+        display:inline-block;
+        margin-right: 10px;
+        position: relative;
+
+    }
+
+    .dropdown-list{
+        display: none;
+        position: absolute;
+        min-width: 85px;
+        border-bottom: 1px solid aliceblue;
+        border-top: 1px solid aliceblue;
+
+    }
+    .dropdown-link{
+        text-decoration: none;
+        display: block;
+        color: aliceblue;
+        margin-top: 10px;
+        border-bottom: 1px solid aliceblue;
+        border-top: 1px solid aliceblue;
+
+        
+   
+    }
+    .navbar-dropdown:hover .dropdown-list{
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        background-color: black;
+        border-bottom: 1px solid aliceblue;
+
+
+
+
     }
 }

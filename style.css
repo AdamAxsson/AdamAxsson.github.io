@@ -1,45 +1,38 @@
-.Post-paragraph{
-    font-size: vw;
+
+.container{
+    background-color: aliceblue
+}
+.post-img-container{
+    background-color: black;
 }
 
-.post-container{
-    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    background-size: cover;
+.head{
+
 }
-
-
-
-
-.posts{
-    background-color:azure
-}
-
-
-
 .uhead-text-c{
     display: flex;
     align-items: center;
-    justify-content: center;
     width: fit-content;
     flex: 1;
-    background-color: rgb(187, 181, 181);
+    background-color: rgb(0, 0, 0);
+    border-right: 1px solid white;
 }
 .uhead-text{
-    margin-right: 250px;
+    margin-left: 30px;
+    color: aliceblue;
 }
 
 
 .nav-bar{
     display: flex;
-    flex: 1.5;
+    flex: 3;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     height: 100%;
-    background-color: rgb(187, 181, 181);
-    margin: 5p;
+    background-color: rgb(0, 0, 0);
     list-style: none;
+    
 }
 
 .nav-button{
@@ -51,18 +44,41 @@
 }
 
 .uhead-link{
-    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     font-size: large;
     text-decoration: none;
+    color: aliceblue;
+ 
 
-}
-.nav-button:hover{
-    background-color: azure;
 }
 
 .uhead-link:hover{
-
+    color: black;
+    background-color:aliceblue;
 }
+
+
+
+.head-container{
+    background-color: black;
+    color:aliceblue;
+}
+
+
+.post-button{
+    background-color: black;
+}
+.post-button-link{
+    color:aliceblue;
+    text-decoration: none;
+    
+}
+
+
 
 .sidetable{
    background-color: rgb(0, 0, 0);
@@ -70,3 +86,22 @@
    
 
 }
+
+.search-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.table-input{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.table-input:focus{
+   
+    border:2px solid gray;
+}
+
+
+

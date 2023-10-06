@@ -36,8 +36,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
- 
-        background-color: aliceblue;
+        color: aliceblue;
+        background-color: black;
 
     }
     
@@ -51,7 +51,8 @@
     .dropdown-list{
         display: none;
         position: absolute;
-
+        margin-top: 40px;
+        margin-right: 50px;
         border-bottom: 1px solid aliceblue;
         border-top: 1px solid aliceblue;
 
@@ -69,11 +70,12 @@
    
     }
     .navbar-dropdown:hover .dropdown-list{
-        display: block;
+        display: flex;
         flex-direction: column;
         background-color: black;
         border-bottom: 1px solid aliceblue;
-        min-width: 85px
+
+        width: 85px;
 
 
 
@@ -92,10 +94,7 @@
     .blogg{
         flex-direction: column-reverse;
         height: fit-content;
-        background-image: url(pexels-emre-orkun-keskin-52706.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-
+        background-color: black;
     }
 
     .uhead{
@@ -131,7 +130,8 @@
         align-items: center;
         width: 100%;
         min-height: 50px;
-        background-color: aliceblue;
+        background-color: black;
+        color: aliceblue;
 
     }
     
@@ -152,7 +152,8 @@
     }
     .dropdown-link{
         text-decoration: none;
-        display: block;
+        display: flex;
+        justify-content: center;
         color: aliceblue;
         margin-top: 10px;
         border-bottom: 1px solid aliceblue;
@@ -162,9 +163,10 @@
    
     }
     .navbar-dropdown:hover .dropdown-list{
-        display: block;
-        width: 100%;
+        display: flex;
+        width: 85px;
         flex-direction: column;
+
         background-color: black;
         border-bottom: 1px solid aliceblue;
 

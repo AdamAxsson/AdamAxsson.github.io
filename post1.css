@@ -1,0 +1,142 @@
+
+.post1-container{
+    height: fit-content;
+    width: fit-content;
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    font-size: 1vw;
+    color: aliceblue;
+}
+
+.section1{
+    display: flex;
+    margin: 10px;
+    background-color: gray;
+}
+
+.s1-img{
+    margin: 5px;
+}
+
+.s1-text{
+    margin: 10px;
+
+}
+.section2{
+    background-color: gray;
+    margin: 10px;
+}
+.s2-text{
+    margin: 10px;
+}
+
+.section3{
+    display: flex;
+    margin: 10px;
+    background-color: gray;
+}
+.s3-img{
+    align-self: center;
+    margin: 5px
+}
+.s3-text{
+    margin: 10px;
+}
+.end-section{
+    background-color: gray;
+    margin: 10px;
+}
+.end-text{
+    margin: 10px;
+}
+
+.rubbish{
+    font-size: 1vw;
+    
+}
+.rubbish1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 10px;
+    
+
+}
+.r1{
+    border-bottom: 1px solid black;
+}
+.r2{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    
+}
+.profile-text-img-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.profile-img{
+    border: 1px solid black;
+}
+.profile-h1{
+    margin-right: 50%;
+    width: 120%;
+    
+}
+.profile-links-container{
+    display: flex;
+    width: fit-content;
+    margin-right: 40px;
+    border: 1px solid black;
+    
+}
+.profile-links{
+    display: flex;
+    padding: 20px;
+    border-right: 1px solid black;
+    
+}
+.profile-text{
+    border-bottom: 1px solid black;;
+}
+
+@media screen and (max-width: 840px) {
+    .post1-container{
+        font-size: 2vw;
+    }
+
+    .profile-container{
+        font-size: 2vw;
+    }
+    .profile-text-img-a{
+        flex-direction: column;
+    
+    }
+    .profile-h1{
+        width: auto;
+        margin-right: 0;
+        
+    }
+    .rubbish{
+        font-size: 2vw;
+    }
+
+    .profile-links{
+        padding: 5px;
+    
+    }
+
+}

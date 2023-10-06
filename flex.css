@@ -2,20 +2,17 @@
 .container{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: fit-content;
 
 }
-.blogg{
-    display: flex;
-    height: fit-content;
-    width: fit-content;
-}
+
 
 .head{
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 }
 
 .logo-container{
@@ -54,7 +51,7 @@
 
 
 .blogg{
-    height: 800px;
+    height: fit-content;
     width: 100%;
     display: flex;
 }
@@ -69,6 +66,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    
     
 }
 
